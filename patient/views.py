@@ -15,7 +15,7 @@ from blood import models as bmodels
 def patient_signup_view(request):
     userForm=forms.PatientUserForm()
     patientForm=forms.PatientForm()
-    mydict={'userForm':userForm,'patientForm':patientForm}
+    mydict={'userForm':userForm,'patientForm':patientForm} 
     if request.method=='POST':
         userForm=forms.PatientUserForm(request.POST)
         patientForm=forms.PatientForm(request.POST,request.FILES)
