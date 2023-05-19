@@ -22,7 +22,7 @@ class Donor(models.Model):
         return self.user.first_name
 
 class BloodDonate(models.Model): 
-    donor=models.ForeignKey(Donor,on_delete=models.CASCADE)   
+    donor=models.ForeignKey(Donor,on_delete=models.CASCADE)    
     disease=models.CharField(max_length=100,default="Nothing")
     age=models.PositiveIntegerField()
     bloodgroup=models.CharField(max_length=10)
