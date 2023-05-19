@@ -8,7 +8,7 @@ class Patient(models.Model):
     age=models.PositiveIntegerField()
     bloodgroup=models.CharField(max_length=10)
     disease=models.CharField(max_length=100)
-    doctorname=models.CharField(max_length=50)
+    doctorname=models.CharField(max_length=50) 
 
     address = models.CharField(max_length=40)
     mobile = models.CharField(max_length=20,null=False)
