@@ -1,4 +1,4 @@
-# Blood-Bank-Management-System
+# LifeFlow:Crafted for Blood Banks
 This project is developed to manage blood donation. It is designed &amp; suitable for some blood banks either operating as  individual organization or part of Hospital. It can cover all blood banking process from Donor  recruitment, donor management,blood stock inventory maintenance.
 
 # Challenges
